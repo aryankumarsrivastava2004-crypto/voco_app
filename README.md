@@ -61,7 +61,6 @@ This project is owned and maintained by **Aryan Kumar Srivastava**.
 - Open the project directory in your editor.
 - Enter command - `flutter clean` at first.
 - Then Enter Command - `flutter run` to start the application.
-- Or you can directly use our application on your android phone by downloading the apk [link](https://drive.google.com/file/d/1G2OAgv496ZIgfTvQDB9stnZZdOtdA90W/view?usp=sharing).
 
 ## Support
 
