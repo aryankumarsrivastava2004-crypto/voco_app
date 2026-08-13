@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:voco_app/page/home.dart';
+import 'package:aura_app/page/home.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class comingsoon extends StatefulWidget {

@@ -3,17 +3,17 @@
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/home.dart';
+import 'package:aura_app/page/home.dart';
 
-class Talkwithvoco2 extends StatefulWidget {
-  const Talkwithvoco2({Key? key}) : super(key: key);
+class TalkWithAura2 extends StatefulWidget {
+  const TalkWithAura2({Key? key}) : super(key: key);
 
   @override
-  _tackwithvoco1WidgetState createState() => _tackwithvoco1WidgetState();
+  _tackwithaura1WidgetState createState() => _tackwithaura1WidgetState();
   // _Demo2WidgetState createState() => _Demo2WidgetState();
 }
 
-class _tackwithvoco1WidgetState extends State<Talkwithvoco2> {
+class _tackwithaura1WidgetState extends State<TalkWithAura2> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -42,7 +42,7 @@ class _tackwithvoco1WidgetState extends State<Talkwithvoco2> {
               },
             ),
             title: Text(
-              " Talk with VoCo",
+              " Talk with Aura",
               style: GoogleFonts.lora(
                   fontStyle: FontStyle.normal, fontWeight: FontWeight.bold),
             ),
@@ -65,8 +65,8 @@ class _tackwithvoco1WidgetState extends State<Talkwithvoco2> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "welcome to VoCo",
-              // Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Voco, Click bottom left for Story Telling, Click bottom right for Games.
+              "welcome to Aura",
+              // Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Aura, Click bottom left for Story Telling, Click bottom right for Games.
               style: GoogleFonts.lora(
                 fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,

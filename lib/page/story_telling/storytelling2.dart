@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/home.dart';
-// import 'package:voco_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/home.dart';
+// import 'package:aura_app/page/ui/comingsoon.dart';
 import '../quiz/StartQuiz.dart';
 
-// import 'package:voco_app/page/story_telling/storytelling2.dart';
+// import 'package:aura_app/page/story_telling/storytelling2.dart';
 
 class storytelling2 extends StatefulWidget {
   const storytelling2({Key? key}) : super(key: key);

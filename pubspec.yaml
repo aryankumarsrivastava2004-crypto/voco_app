@@ -1,4 +1,4 @@
-name: voco_app
+name: aura_app
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -49,7 +49,7 @@ dependencies:
 flutter_icons:
   android: true
   # ios: true
-  image_path: "assets/iconvoco.png"
+  image_path: "assets/iconaura.png"
 
 dev_dependencies:
   flutter_test:

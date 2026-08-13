@@ -4,8 +4,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/home.dart';
-import 'package:voco_app/page/pronunciation_guide/guidep1.dart';
+import 'package:aura_app/page/home.dart';
+import 'package:aura_app/page/pronunciation_guide/guidep1.dart';
 
 // ignore: must_be_immutable
 class pronunciation2 extends StatefulWidget {
@@ -114,7 +114,7 @@ class _Demo2WidgetState extends State<pronunciation2> {
                 },
               ),
               title: Text(
-                "Pronunciation Guide This page is divided into 4 quadrants. Click on top left to go back, click on top right to go next, click bottom left to listen to Voco and click bottom right to listen to your audio.",
+                "Pronunciation Guide This page is divided into 4 quadrants. Click on top left to go back, click on top right to go next, click bottom left to listen to Aura and click bottom right to listen to your audio.",
                 style: GoogleFonts.lora(
                     fontStyle: FontStyle.normal,
                     fontWeight: FontWeight.bold,
@@ -285,7 +285,7 @@ class _Demo2WidgetState extends State<pronunciation2> {
                                       size: 80.0,
                                     ), // icon
                                     Text(
-                                      "Listen to VoCo",
+                                      "Listen to Aura",
                                       style: GoogleFonts.lora(
                                         color: Colors.black,
                                         fontWeight: FontWeight.bold,

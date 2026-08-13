@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:voco_app/page/story_telling/storytelling2.dart';
+// import 'package:aura_app/page/story_telling/storytelling2.dart';
 
-import 'package:voco_app/page/ui/comingsoon.dart';
-import 'package:voco_app/page/vocogyan/tech/DSA.dart';
+import 'package:aura_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/auragyan/tech/DSA.dart';
 
 import '../../home.dart';
 

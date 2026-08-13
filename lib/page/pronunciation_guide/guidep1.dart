@@ -8,8 +8,8 @@ import 'package:flutter_sound_record/flutter_sound_record.dart';
 import 'package:flutter_sound/flutter_sound.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/home.dart';
-import 'package:voco_app/page/pronunciation_guide/guidep2.dart';
+import 'package:aura_app/page/home.dart';
+import 'package:aura_app/page/pronunciation_guide/guidep2.dart';
 import 'package:path_provider/path_provider.dart';
 
 // ignore: must_be_immutable
@@ -119,8 +119,8 @@ class _Demo2WidgetState extends State<PronucitionGuide> {
               },
             ),
             title: Text(
-              "   This screen is divided into two parts. Click on the top half to listen to Voco and click on the bottom half once to start recording, repeat voco and then click on the bottom half again to stop recording.",
-              // This screen is divided into two parts. Click on the top half to listen to Voco and click on the bottom half once to start recording, repeat voco and then click on the bottom half again to stop recording.
+              "   This screen is divided into two parts. Click on the top half to listen to Aura and click on the bottom half once to start recording, repeat aura and then click on the bottom half again to stop recording.",
+              // This screen is divided into two parts. Click on the top half to listen to Aura and click on the bottom half once to start recording, repeat aura and then click on the bottom half again to stop recording.
               style: GoogleFonts.lora(
                   fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.bold,
@@ -158,7 +158,7 @@ class _Demo2WidgetState extends State<PronucitionGuide> {
                 Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/vocogft.gif'),
+                        image: AssetImage('assets/auragft.gif'),
                         fit: BoxFit.cover),
                   ),
                   height: mediaQuery.size.height * 0.39,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/story_telling/storytelling2.dart';
+import 'package:aura_app/page/story_telling/storytelling2.dart';
 
-import 'package:voco_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/ui/comingsoon.dart';
 import 'animal_sounds.dart';
 
 import '../home.dart';
@@ -43,7 +43,7 @@ class _Games extends State<Games> {
                 },
               ),
               title: Text(
-                "   VoCo Games",
+                "   Aura Games",
                 style: GoogleFonts.lora(
                     fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
               ),

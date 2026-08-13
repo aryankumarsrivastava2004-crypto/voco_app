@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:voco_app/page/home.dart';
+// import 'package:aura_app/page/home.dart';
 import 'package:alan_voice/alan_voice.dart';
-import 'package:voco_app/page/home_decide.dart';
+import 'package:aura_app/page/home_decide.dart';
 
 void main() {
   runApp(welcome());
@@ -49,8 +49,8 @@ class SplashScreenState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "welcome to VoCo",
-              // Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Voco, Click bottom left for Story Telling, Click bottom right for Games.
+              "welcome to Aura",
+              // Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Aura, Click bottom left for Story Telling, Click bottom right for Games.
               style: GoogleFonts.lora(
                 fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,
@@ -62,7 +62,7 @@ class SplashScreenState extends State<MyHomePage> {
         ),
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/welcome_voco.png'), fit: BoxFit.cover),
+              image: AssetImage('assets/welcome_aura.png'), fit: BoxFit.cover),
         ),
       ),
     );

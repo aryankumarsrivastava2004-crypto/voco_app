@@ -2,14 +2,14 @@ import 'package:alan_voice/alan_voice.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/TalkWithVoC/talkVoCop1.dart';
-import 'package:voco_app/page/game/game.dart';
-import 'package:voco_app/page/login/login.dart';
-import 'package:voco_app/page/pronunciation_guide/guidep1.dart';
-import 'package:voco_app/page/vocogyan/story1.dart';
-// import 'package:voco_app/page/story_telling/storytellling.dart';
+import 'package:aura_app/page/TalkWithAura/talkAura1.dart';
+import 'package:aura_app/page/game/game.dart';
+import 'package:aura_app/page/login/login.dart';
+import 'package:aura_app/page/pronunciation_guide/guidep1.dart';
+import 'package:aura_app/page/auragyan/story1.dart';
+// import 'package:aura_app/page/story_telling/storytellling.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:voco_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/ui/comingsoon.dart';
 // import 'package:alan_voice/alan_voice.dart';
 
 class HomePage extends StatefulWidget {
@@ -55,8 +55,8 @@ class _Demo2WidgetState extends State<HomePage> {
 
             toolbarHeight: 500,
             title: Text(
-              "Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Voco, Click bottom left for Story Telling, Click bottom right for Games.",
-              // Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Voco, Click bottom left for Story Telling, Click bottom right for Games.
+              "Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Aura, Click bottom left for Story Telling, Click bottom right for Games.",
+              // Listen to the Guide carefully, the screen is divided into 4 quadrants. Click top left for Pronunciation Guide, Click top right for Talking with Aura, Click bottom left for Story Telling, Click bottom right for Games.
               style: GoogleFonts.lora(
                   fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.bold,
@@ -131,7 +131,7 @@ class _Demo2WidgetState extends State<HomePage> {
                                 if (quotes.isEmpty) {
                                   quotes.addAll([
                                     "Visual impairment is not a barrier to learning.",
-                                    "VoCo helps people to learn new languages and skills.",
+                                    "Aura helps people to learn new languages and skills.",
                                     "Practice makes perfect pronunciation.",
                                     "Flutter is a great tool for building accessible apps.",
                                     "Practice makes you more confident."
@@ -178,7 +178,7 @@ class _Demo2WidgetState extends State<HomePage> {
                                     context,
                                     new MaterialPageRoute(
                                         builder: (context) =>
-                                            new Talkwithvoco1()));
+                                            new TalkWithAura1()));
                                 // print('Button pressed ...');
                               },
                               style: ElevatedButton.styleFrom(
@@ -187,7 +187,7 @@ class _Demo2WidgetState extends State<HomePage> {
                                     borderRadius: BorderRadius.circular(30)),
                               ),
                               child: Text(
-                                "Talk with VoCo",
+                                "Talk with Aura",
                                 textAlign: TextAlign.center,
                                 style: GoogleFonts.lora(
                                   color: Colors.black,
@@ -225,7 +225,7 @@ class _Demo2WidgetState extends State<HomePage> {
                                 Navigator.push(
                                     context,
                                     new MaterialPageRoute(
-                                        builder: (context) => new vocogyan()));
+                                        builder: (context) => new auragyan()));
                                 print('Button pressed ...');
                               },
                               style: ElevatedButton.styleFrom(
@@ -234,7 +234,7 @@ class _Demo2WidgetState extends State<HomePage> {
                                     borderRadius: BorderRadius.circular(30)),
                               ),
                               child: Text(
-                                "VoCo Gyan",
+                                "Aura Gyan",
                                 textAlign: TextAlign.center,
                                 style: GoogleFonts.lora(
                                   color: Colors.black,
@@ -333,9 +333,9 @@ _handleCommand(Map<String, dynamic> command, BuildContext context) async {
       );
       break;
 
-    case "talkvoco":
+    case "talkaura":
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => Talkwithvoco1()));
+          .push(MaterialPageRoute(builder: (context) => TalkWithAura1()));
       break;
 
     // case "exit":
@@ -347,7 +347,7 @@ _handleCommand(Map<String, dynamic> command, BuildContext context) async {
     //   break;
     case "Gyan":
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => vocogyan()));
+          .push(MaterialPageRoute(builder: (context) => auragyan()));
       break;
     // case "home":
     //   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

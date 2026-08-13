@@ -34,7 +34,7 @@ class LoginHome extends StatelessWidget {
               ),
               Container(
                 child: Text(
-                  "   VoCo",
+                  "   Aura",
                   style: GoogleFonts.lora(
                     fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,

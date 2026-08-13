@@ -1,8 +1,8 @@
 // 4(c)
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/home.dart';
-import 'package:voco_app/page/story_telling/storytelling2.dart';
+import 'package:aura_app/page/home.dart';
+import 'package:aura_app/page/story_telling/storytelling2.dart';
 
 class StoryTelling extends StatefulWidget {
   const StoryTelling({Key? key}) : super(key: key);
@@ -116,7 +116,7 @@ class _StoryTelling extends State<StoryTelling> {
                                         //     context,
                                         //     new MaterialPageRoute(
                                         //         builder: (context) =>
-                                        //             new Talkwithvoco1()));
+                                        //             new TalkWithAura1()));
                                         Navigator.push(
                                             context,
                                             new MaterialPageRoute(

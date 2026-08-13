@@ -1,10 +1,10 @@
 // 4(c)
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/home.dart';
-// import 'package:voco_app/page/story_telling/storytelling2.dart';
-import 'package:voco_app/page/ui/comingsoon.dart';
-import 'package:voco_app/page/vocogyan/tech/quizDsa.dart';
+import 'package:aura_app/page/home.dart';
+// import 'package:aura_app/page/story_telling/storytelling2.dart';
+import 'package:aura_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/auragyan/tech/quizDsa.dart';
 
 class DSA extends StatefulWidget {
   const DSA({Key? key}) : super(key: key);

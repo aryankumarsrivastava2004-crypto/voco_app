@@ -1,8 +1,8 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:voco_app/page/home.dart';
-import 'package:voco_app/page/quiz/question.dart';
+import 'package:aura_app/page/home.dart';
+import 'package:aura_app/page/quiz/question.dart';
 
 class StartQuiz extends StatefulWidget {
   @override
@@ -17,14 +17,14 @@ class _StartQuizState extends State<StartQuiz> {
 // infirebase u can use key : value so try to do the same here
   List que_list = [
     Questions("Linked List Are Similar to An Array ?", false),
-    Questions("Voco is for deafs.", false),
-    Questions("Voco is built with flutter.", true),
+    Questions("Aura is for deafs.", false),
+    Questions("Aura is built with flutter.", true),
     Questions(
-        "Voco helps people to learn new languages and new technologies.", true),
+        "Aura helps people to learn new languages and new technologies.", true),
     Questions(
-        "Voco helps people to learn new languages and new technologies.", true),
+        "Aura helps people to learn new languages and new technologies.", true),
     Questions(
-        "Voco helps people to learn new languages and new technologies.", true),
+        "Aura helps people to learn new languages and new technologies.", true),
   ];
 
   void checkAnswer(bool choice, BuildContext ctx) {

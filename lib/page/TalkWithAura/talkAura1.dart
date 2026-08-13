@@ -1,21 +1,21 @@
-//4(b)(ii)
+//page(4(b));
 
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/TalkWithVoC/talkVoCop2.dart';
-import 'package:voco_app/page/home.dart';
-import 'package:voco_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/TalkWithAura/talkAura2.dart';
+import 'package:aura_app/page/TalkWithAura/talkAura3.dart';
+import 'package:aura_app/page/home.dart';
 
-class Talkwithvoco3 extends StatefulWidget {
-  const Talkwithvoco3({Key? key}) : super(key: key);
+class TalkWithAura1 extends StatefulWidget {
+  const TalkWithAura1({Key? key}) : super(key: key);
 
   @override
-  _tackwithvoco1WidgetState createState() => _tackwithvoco1WidgetState();
+  _tackwithaura1WidgetState createState() => _tackwithaura1WidgetState();
   // _Demo2WidgetState createState() => _Demo2WidgetState();
 }
 
-class _tackwithvoco1WidgetState extends State<Talkwithvoco3> {
+class _tackwithaura1WidgetState extends State<TalkWithAura1> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -44,7 +44,7 @@ class _tackwithvoco1WidgetState extends State<Talkwithvoco3> {
                 },
               ),
               title: Text(
-                " Talk with VoCo",
+                " Talk with Aura",
                 style: GoogleFonts.lora(
                     fontStyle: FontStyle.normal, fontWeight: FontWeight.bold),
               ),
@@ -67,7 +67,7 @@ class _tackwithvoco1WidgetState extends State<Talkwithvoco3> {
           child: Column(mainAxisAlignment: MainAxisAlignment.start, children: <
               Widget>[
             Container(
-              // color: Color.fromARGB(117, 77, 2, 2),
+              color: Color.fromARGB(117, 240, 234, 234),
               width: mediaQuery.size.width * 1,
               height: mediaQuery.size.height * 0.04,
             ),
@@ -87,22 +87,22 @@ class _tackwithvoco1WidgetState extends State<Talkwithvoco3> {
                             child: SizedBox(
                                 child: ElevatedButton(
                               onPressed: () {
-                                Navigator.push(
-                                    context,
-                                    new MaterialPageRoute(
-                                        builder: (context) =>
-                                            new comingsoon()));
+                                // Navigator.push(
+                                //     context,
+                                //     new MaterialPageRoute(
+                                //         builder: (context) =>
+                                //             new TalkWithAura2()));
                               },
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
                                   Icon(
-                                    Icons.border_top,
+                                    Icons.lock,
                                     color: Color.fromARGB(255, 0, 4, 253),
                                     size: 80.0,
                                   ), // icon
                                   Text(
-                                    "Talk to VoCo Bot",
+                                    "Talk to Aura Professional",
                                     style: GoogleFonts.lora(
                                       color: Colors.black,
                                       fontWeight: FontWeight.bold,
@@ -112,9 +112,9 @@ class _tackwithvoco1WidgetState extends State<Talkwithvoco3> {
                                   )
                                 ],
                               ),
-                              //style: ElevatedButton.styleFrom(
-                              //     shape: CircleBorder(),
-                              //A  backgroundColor: Color.fromARGB(255, 238, 205, 40)),
+                              style: ElevatedButton.styleFrom(
+                                  //     shape: CircleBorder(),
+                                  backgroundColor: Color.fromARGB(255, 238, 205, 40)),
                             ))),
                       )
                     ]),
@@ -135,17 +135,23 @@ class _tackwithvoco1WidgetState extends State<Talkwithvoco3> {
                           height: mediaQuery.size.height * 0.37,
                           color: Color.fromARGB(255, 249, 217, 217),
                           child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.push(
+                                  context,
+                                  new MaterialPageRoute(
+                                      builder: (context) =>
+                                          new TalkWithAura3()));
+                            },
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
                                 Icon(
-                                  Icons.lock,
+                                  Icons.emoji_people_rounded,
                                   color: Color.fromARGB(255, 150, 36, 36),
                                   size: 80.0,
                                 ), // icon
                                 Text(
-                                  "Talk to VoCo Friend",
+                                  "Talk to Aura Mitra",
                                   style: GoogleFonts.lora(
                                     color: Colors.black,
                                     fontWeight: FontWeight.bold,

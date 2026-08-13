@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:voco_app/page/home_decide.dart';
-import 'package:voco_app/page/login/login.dart';
+import 'package:aura_app/page/home_decide.dart';
+import 'package:aura_app/page/login/login.dart';
 
 class MyRegister extends StatefulWidget {
   const MyRegister({Key? key}) : super(key: key);

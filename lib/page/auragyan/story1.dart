@@ -3,21 +3,21 @@
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:voco_app/page/TalkWithVoC/talkVoCop2.dart';
-// import 'package:voco_app/page/TalkWithVoC/talkVoCop3.dart';
-import 'package:voco_app/page/home.dart';
-import 'package:voco_app/page/ui/comingsoon.dart';
-import 'package:voco_app/page/vocogyan/tech/ch1.dart';
+// import 'package:aura_app/page/TalkWithAura/talkAura2.dart';
+// import 'package:aura_app/page/TalkWithAura/talkAura3.dart';
+import 'package:aura_app/page/home.dart';
+import 'package:aura_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/auragyan/tech/ch1.dart';
 
-class vocogyan extends StatefulWidget {
-  const vocogyan({Key? key}) : super(key: key);
+class auragyan extends StatefulWidget {
+  const auragyan({Key? key}) : super(key: key);
 
   @override
-  _vocogyan createState() => _vocogyan();
+  _auragyan createState() => _auragyan();
   // _Demo2WidgetState createState() => _Demo2WidgetState();
 }
 
-class _vocogyan extends State<vocogyan> {
+class _auragyan extends State<auragyan> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -46,7 +46,7 @@ class _vocogyan extends State<vocogyan> {
                 },
               ),
               title: Text(
-                " Talk with VoCo",
+                " Talk with Aura",
                 style: GoogleFonts.lora(
                     fontStyle: FontStyle.normal, fontWeight: FontWeight.bold),
               ),
@@ -104,7 +104,7 @@ class _vocogyan extends State<vocogyan> {
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
                                         image: AssetImage(
-                                            'assets/roboticsvoco.png'),
+                                            'assets/roboticsaura.png'),
                                       ),
                                     ),
                                   ),

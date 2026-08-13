@@ -4,11 +4,11 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:voco_app/page/home.dart';
-// import 'package:voco_app/page/ui/comingsoon.dart';
+import 'package:aura_app/page/home.dart';
+// import 'package:aura_app/page/ui/comingsoon.dart';
 import '../quiz/StartQuiz.dart';
 
-// import 'package:voco_app/page/story_telling/storytelling2.dart';
+// import 'package:aura_app/page/story_telling/storytelling2.dart';
 
 class DsaQuiz extends StatefulWidget {
   const DsaQuiz({Key? key}) : super(key: key);
