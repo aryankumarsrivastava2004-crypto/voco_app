@@ -38,9 +38,6 @@ We have implemented these features:
  [![ExpressJS](https://img.shields.io/badge/express.js-35495E?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
  [![TypeScript](https://img.shields.io/badge/typescipt-35495E?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-⦿ <b>Server :</b>
-* [![GoogleCloud](https://img.shields.io/badge/google_cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
-
 ⦿ <b>Database :</b>
 * [![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
