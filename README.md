@@ -1,8 +1,8 @@
-# <p align="center"><img align="center" width="80" src="./assets/logo-white.png"/> VoCo</p>
+# <p align="center"><img align="center" width="80" src="./assets/logo-white.png"/> Aura</p>
 <h2 align="center">Advanced Vocational Training Application 📱</h2>
 <h2 align="center">COMPLETE DESCRIPTION</h2>
 
-VoCo is a highly accessible web and mobile-based vocational training application designed for persons with visual impairment. It features voice-powered navigation, built-in interactive courses, and games to improve vocational and communication skills.
+Aura is a highly accessible web and mobile-based vocational training application designed for persons with visual impairment. It features voice-powered navigation, built-in interactive courses, and games to improve vocational and communication skills.
 
 ### Aim :
 1. To Break Linguistic Barrier Between People With And Without Vision & Provide a Better Community Support.
@@ -18,7 +18,7 @@ The mobile app will have features such as to improve the vocal speech of the use
 4. A proper feedback system for us to understand whether the user liked our course content or not.
 5. Interactive chat bot feature in case the user wants someone to talk with when no one is around.
 6. A feature to connect all the users together at real-time and they can have a conversation among themselves. This will improve their communication skills and can provide them recreational time with some new friends.
-7. An option to even connect with a VoCo Expert to clear course related doubts and any queries they might have.
+7. An option to even connect with an Aura Expert to clear course related doubts and any queries they might have.
 8. Fun and interactive games section to improve their mental ability and train their mind.
 9. To improve the UI for more easy usability for the visually impaired people.
 
