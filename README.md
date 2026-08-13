@@ -2,19 +2,7 @@
 <h2 align="center">Advanced Vocational Training Application 📱</h2>
 <h2 align="center">COMPLETE DESCRIPTION</h2>
 
-### PS ID : RK774
-
-### Team ID : 23641
-
-### PS Title :
-Software for Vocational Training for persons with visual impairment
-
-### PS Description :
-<b>Background:</b> A web/app based solution required for vocational training for persons with visual impairment. It would have greater accessibility support and a better user interface.
-
-<b>Situation:</b> Currently no such software is available for persons with visual impairment. Further because of their mobility, it is difficult for them to get offline vocational training. Such software will enable them to get suitable vocational training in the area of their interest and will enable them to become self dependent.
-
-<b>Objective:</b> A web/app based platform such as PWAs, offline first applications which helps visually impaired persons accessibility to vocational training smoothly.
+VoCo is a highly accessible web and mobile-based vocational training application designed for persons with visual impairment. It features voice-powered navigation, built-in interactive courses, and games to improve vocational and communication skills.
 
 ### Aim :
 1. To Break Linguistic Barrier Between People With And Without Vision & Provide a Better Community Support.
