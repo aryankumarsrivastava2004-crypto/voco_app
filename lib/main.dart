@@ -29,11 +29,11 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: 'AIzaSyAkX06omcOYnfbvmjbu0PEWaeM59Z_OzB0',
-        appId: '1:191467372865:web:d259dfa1c0afc5d42ca118',
-        messagingSenderId: '191467372865',
-        projectId: 'aura-a50d5',
-        storageBucket: 'aura-a50d5.appspot.com',
+        apiKey: 'AIzaSyDUMMY_KEY_REPLACED_FOR_SECURITY_ALERTS',
+        appId: '1:000000000000:web:0000000000000000000000',
+        messagingSenderId: '000000000000',
+        projectId: 'aura-app-dummy',
+        storageBucket: 'aura-app-dummy.appspot.com',
       ),
     );
   } else {
